@@ -13,5 +13,3 @@ def download_video():
     stream.download()
     return jsonify({'status': 'success', 'message': 'Video downloaded successfully'})
 
-if __name__ == '__main__':
-    app.run(debug=True)
